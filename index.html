@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSV Parser</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>CSV Parser</h1>
+        <input type="file" id="csvFile" accept=".csv" style="display: block; margin: 10px auto;">
+        <button id="parseButton">Parse CSV</button>
+        <a id="downloadLink" style="display: none;" download="ParsedFile.txt">Download Output</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

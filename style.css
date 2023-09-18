@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+   
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/background.webp');
+    background-size: cover; /* Adjusts the image size to cover the entire viewport */
+    background-repeat: no-repeat
+}
+
+.container {
+    
+        background-image: url('/images/elemBack.jpg');
+        background-size: cover; /* Adjusts the image size to cover the entire viewport */
+        background-repeat: no-repeat;
+        box-shadow: 0 10px 500px rgba(248, 13, 13, 0.1);
+        width: 500px;
+        height: 300px;
+        margin-left: 310px;
+        padding-bottom: 20px;
+        text-align: center;
+        align-self: center;
+        border-radius: 4%;
+        align-content: center;
+        margin-top: 200px;
+        padding-top: 20px;
+        border-color: #250e05;
+
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: rgb(31, 7, 1);
+    padding-top: 30px;
+    
+}
+
+input[type="file"] {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+button {
+    background-color: #250e05;
+    color: #dacda32d;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 20px;
+    border-width: 10px;
+    border-color: bisque;
+    border-radius: 5px;
+
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+a {
+    background-image: url('/images/buttonBackground.jpeg');
+    background-size: cover; /* Adjusts the image size to cover the entire viewport */
+    background-repeat: no-repeat;
+    color: black;
+    border: brown;
+    padding: 10px 20px;
+    width: 150px;
+    height: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: auto; 
+    margin-left: auto;
+    border-radius: 10%;
+}
